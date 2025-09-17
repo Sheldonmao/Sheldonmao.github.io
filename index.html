@@ -1,0 +1,341 @@
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Shi Mao</title>
+  
+  <meta name="author" content="Shi Mao">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<!-- <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>"> -->
+  <link rel="icon" type="image/png" href="images/thu_icon.png">
+</head>
+
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Shi Mao</name>
+              </p>
+              <p> I am currently pursuing my Ph.D. in Computer Science at the Visual Computing Center at King Abdullah University of Science and Technology (KAUST). 
+                 I works under the guidance of <a href="https://vccimaging.org/People/heidriw/">Prof. Wolfgang Heidrich</a> as a member of the Computational Imaging Group.
+              </p>
+              <p>
+                I got my M.S. degree from Tsinghua-Berkely Shenzhen Institute (TBSI), Tsinghua University, where I was co-advised by <a href="http://media.au.tsinghua.edu.cn/english/team/qhdai.html">Prof. Qionghai Dai</a> and <a href="http://www.luvision.net/">Prof. Lu Fang</a>. 
+                Before that, I received my B.E. degree from South China University of Technology (SCUT), where I studied intelligence science and technology. I had a wonderful time in UC Berkely as a visiting student during my senior year and serves a research consultant at <a href="http://research.baidu.com/">Baidu Research </a> before joining KAUST.
+              </p>
+              <p>
+                My research interest spans computational imaging and 3D vision. 
+                <!-- Previously, my research was about inferring informative 3D representation from images (computer vision track) and decoding neural signals (neural science track). Representative papers are <span class="highlight">highlighted</span>. -->
+              </p>
+              <p style="text-align:center">
+                <a href="mailto:mssheldonmao@gmail.com">Email</a> &nbsp/&nbsp
+                <a href="data/ShiMao-CV.pdf">CV</a> &nbsp/&nbsp
+                <a href="data/ShiMao-bio.txt">Bio</a> &nbsp/&nbsp
+                <a href="https://scholar.google.com/citations?user=Ix9pIt0AAAAJ">Google Scholar</a> &nbsp/&nbsp
+                <!-- <a href="https://twitter.com/jon_barron">Twitter</a> &nbsp/&nbsp -->
+                <a href="https://github.com/sheldonmao/">Github</a>
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <a href="images/ShiMao.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/ShiMao_circle.jpg" class="hoverZoomLink"></a>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Research</heading>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+				
+          <!-- 2024 MatSparse3D  -->
+          <tr onmouseout="matsparse3d_stop()" onmouseover="matsparse3d_start()" >
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='MatSparse3D'><video  width="160" height="160" muted autoplay loop>
+                  <source src='images/MatSparse3D_video.mp4' type="video/mp4">
+                  Your browser does not support the video tag.
+                </video></div>
+                <img src='images/MatSparse3D_img.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function matsparse3d_start() {
+                  document.getElementById('MatSparse3D').style.opacity = "1";
+                }
+                function matsparse3d_stop() {
+                  document.getElementById('MatSparse3D').style.opacity = "0";
+                }
+                matsparse3d_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://openaccess.thecvf.com/content/CVPR2024W/PBDL/papers/Mao_Generating_Material-Aware_3D_Models_from_Sparse_Views_CVPRW_2024_paper.pdf">
+                <papertitle>Generating Material-Aware 3D Models from Sparse Views</papertitle>
+              </a>
+              <br>
+              <strong>S. Mao</strong>, C. Wu, R. Yi, Z. Shen, L. Zhang, W. Heidrich
+              <br>
+              <em>IEEE/CVF International Conference on Computer Vision and Pattern Recognition (CVPR) Workshop PBDL </em>, 2024 
+              <br>
+              <a href="data/MatSparse3D.bib">bibtex</a> / <a href="https://openaccess.thecvf.com/content/CVPR2024W/PBDL/papers/Mao_Generating_Material-Aware_3D_Models_from_Sparse_Views_CVPRW_2024_paper.pdf">paper</a> / <a href="https://github.com/Sheldonmao/MatSparse3D">code</a>
+              <p></p>
+              <p> Generate material-aware 3D models from sparse-view images using generative models and efficient pre-integrated rendering.</p>
+            </td>
+          </tr>
+
+          <!-- 2023 NeuSPIR  -->
+          <tr onmouseout="neuspir_stop()" onmouseover="neuspir_start()" >
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='NeuSPIR_relight'><video  width="160" height="160" muted autoplay loop>
+                  <source src='images/NeuSPIR_relight.mp4' type="video/mp4">
+                  Your browser does not support the video tag.
+                </video></div>
+                <img src='images/NeuSPIR_decompose.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function neuspir_start() {
+                  document.getElementById('NeuSPIR_relight').style.opacity = "1";
+                }
+                function neuspir_stop() {
+                  document.getElementById('NeuSPIR_relight').style.opacity = "0";
+                }
+                neuspir_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/pdf/2306.07632">
+                <papertitle>NeuS-PIR: Learning Relightable Neural Surface using Pre-Integrated Rendering</papertitle>
+              </a>
+              <br>
+              <strong>S. Mao</strong>, C. Wu, Z. Shen, Y. Wang, D. Wu, L. Zhang
+              <br>
+              <em>13th international conference on Computational Visual Media (CVM 2025), CVM Journal </em>, 2025 
+              <br>
+              <a href="data/NeuSPIR.bib">bibtex</a> / <a href="https://ieeexplore.ieee.org/document/11145203">paper</a> / <a href="https://github.com/Sheldonmao/NeuSPIR">code</a>
+              <p></p>
+              <p> Inverse rendering pipeline incorporates Pre-Integrated Rendering and Neural Surface Representation to learn high-quality geometry with all-frequency illumination.</p>
+            </td>
+          </tr>
+
+
+          <!-- 2022 JSTSP material paper -->
+          <tr onmouseout="material_stop()" onmouseover="material_start()" >
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='material_rgb'><img src='images/material_rgb.png' width="160"></div>
+                <img src='images/material_ir.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function material_start() {
+                  document.getElementById('material_rgb').style.opacity = "1";
+                }
+
+                function material_stop() {
+                  document.getElementById('material_rgb').style.opacity = "0";
+                }
+                material_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://drive.google.com/file/d/1xE4UY3shqpLqv1mKhTVZTUGJ332k61hJ/view?usp=sharing">
+                <papertitle>Surface Material Perception Through Multimodal Learning</papertitle>
+              </a>
+              <br>
+              <strong>S. Mao*</strong>, M. Ji*, B. Wang, Q. Dai, and L. Fang
+              <br>
+              <em>IEEE Journal of Selected Topics in Signal Processing (JSTSP)</em>, 2022 
+              <br>
+              <a href="data/IRmaterial.bib">bibtex</a> / <a href="https://ieeexplore.ieee.org/document/9772950">paper</a> / <a href="https://github.com/Sheldonmao/Surface_Material_Perception">code</a>
+              <p></p>
+              <p>Material's subsurface scattering feature can be probed by dot-pattern illumination emitted by the structured ligh camera. By fusing with reflection and texture features, the material recognition power is enhanced.</p>
+            </td>
+          </tr>
+          
+          <!-- 2021 TPAMI gigamvs bgcolor="#ffffd0" -->
+          <tr onmouseout="gigamvs_stop()" onmouseover="gigamvs_start()" >
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='gigamvs_video'><video  width="160" height="160" muted autoplay loop>
+                  <source src='images/gigamvs_video.mp4' type="video/mp4">
+                  Your browser does not support the video tag.
+                </video></div>
+                <img src='images/gigamvs_image.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function gigamvs_start() {
+                  document.getElementById('gigamvs_video').style.opacity = "1";
+                }
+
+                function gigamvs_stop() {
+                  document.getElementById('gigamvs_video').style.opacity = "0";
+                }
+                gigamvs_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://drive.google.com/file/d/1nef9mQqyVPUfK5i1XUSx7cdDGQhTrnn-/view?usp=sharing">
+                <papertitle>GigaMVS: A Benchmark for Ultra-large-scale Gigapixel-level 3D Reconstruction</papertitle>
+              </a>
+              <br>
+              J. Zhang*, J. Zhang*, <strong>S. Mao*</strong>, M. Ji, G. Wang, Z. Chen, T. Zhang, X. Yuan, Q. Dai, and L. Fang
+              <br>
+              <em>IEEE trans. on Pattern Analysis and Machine Intelligence (TPAMI)</em>, 2021
+              <br>
+              <a href="http://gigamvs.com">website</a> / <a href="data/gigamvs.bib">bibtex</a> / <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9547729">paper</a>
+              <p></p>
+              <p>We build a high-resolution MVS benchmark to support large-scale 3D reconstruction with fine details.</p>
+            </td>
+          </tr>
+
+          
+          
+          <!-- 2018 robio paper -->
+          <tr onmouseout="robio_stop()" onmouseover="robio_start()" >
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='robio_video'><video  width="160" height="160" muted autoplay loop>
+                  <source src='images/robio_video.mp4' type="video/mp4">
+                  Your browser does not support the video tag.
+                </video></div>
+                <img src='images/robio_img.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function robio_start() {
+                  document.getElementById('robio_video').style.opacity = "1";
+                }
+
+                function robio_stop() {
+                  document.getElementById('robio_video').style.opacity = "0";
+                }
+                robio_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://drive.google.com/file/d/18ctWtyjL43hQ0aDrgSzRnMcVei3qvSeR/view?usp=sharing">
+                <papertitle>CNN and PCA based visual system of a wheelchair manipulator robot for automatic drinking</papertitle>
+              </a>
+              
+              <br>
+              Z. Zhang*, <strong>S. Mao*</strong>, K. Chen, L. Xiao, B. Liao, C. Li, P. Zhang 
+              <br>
+              <em>IEEE International Conference on Robotics and Biomimetics (ROBIO)</em>, 2018
+              <br>
+              <p></p>
+              <p>Recognize and localize the cup for grasping by computer vision, after decoding the patient's intention by EEG.</p>
+            </td>
+          </tr>
+
+
+
+        </tbody></table>
+
+				
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+          <tr>
+            <td>
+              <heading>Education</heading>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+          <tr>
+            <td style="padding:10px;width:20%;vertical-align:middle">
+              <img src="images/kaust_icon.png" alt="KAUST" width="160">
+            </td>
+            <td style="width:5%"></td>
+            <td width="100%" valign="center">
+              <font size="5" color="gray">Fall 2023 - </font>
+              <br>
+              <b>Ph.D. </b> in Computer Science
+              <br>
+              Visual Computing Center, King Abdullah University of Science and Technology (KAUST)
+              <br>
+              advised by <a href="https://vccimaging.org/People/heidriw/">Prof. Wolfgang Heidrich</a>
+              <!-- <br> -->
+              <!-- <b> GPA: 3.95   Rank:2/98</b> -->
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:10px;width:20%;vertical-align:middle">
+              <img src="images/thu_icon.png" alt="THU" width="160">
+            </td>
+            <td style="width:5%"></td>
+            <td width="100%" valign="center">
+              <font size="5" color="gray">Fall 2019 - Spring 2022</font>
+              <br>
+              <b>M. S.</b> in Data Science and Technology
+              <br>
+              Tsinghua-Berkely Shenzhen Institute (TBSI), Tsinghua University (THU)
+              <br>
+              co-advised by <a href="http://media.au.tsinghua.edu.cn/english/team/qhdai.html">Prof. Qionghai Dai</a> and <a href="http://www.luvision.net/">Prof. Lu Fang</a>
+              <br>
+              <b> GPA: 3.95   Rank:2/98</b>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:10px;width:20%;vertical-align:middle">
+              <img src="images/scut_icon.png" alt="scut" width="160">
+            </td>
+            <td style="width:5%"></td>
+            <td width="100%" valign="center">
+              <font size="5" color="gray"> Fall 2015 - Spring 2019</font>
+              <br>
+              <b>B. E.</b> in Intelligence Science and Technology
+              <br>
+              Department of Automation, South China University of Technology (SCUT)
+              <br>
+              Chinese National Scholarship, by Minister of Education of China, 2017
+              <br>
+              Chinese National Scholarship, by Minister of Education of China, 2016
+              <br>
+              <b>GPA: 3.90   Rank:1/50 </b>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:10px;width:20%;vertical-align:middle">
+              <img src="images/ucb_icon_circle.png" alt="ucb" width="160">
+            </td>
+            <td style="width:5%"></td>
+            <td width="100%" valign="center">
+              <font size="5" color="gray">Fall 2018</font>
+              <br>
+              <b>Visiting Student</b> in Computer Science and Statistics
+              <br>
+              Exchange Program, University of California, Berkely (UCB)
+              <br>
+              Coursework: Introduction to Artificial Intelligence (CS 188, A), High-Dimensional Data Analysis with Low-Dimensional Models (EE290T, B+), Probability for Data Science (Prob 140, A+), Special Topics on Deep Learning (CS294-131, A) 
+            </td>
+          </tr>
+
+					
+
+					
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:0px;width:100%">
+              <br>
+              <p style="text-align:right;font-size:small;">
+                <a href="https://github.com/jonbarron/jonbarron_website">this page is base on barron's templet</a>
+                </p>
+            </td>
+          </tr>
+        </tbody></table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
