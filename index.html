@@ -8,7 +8,7 @@
   
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<!-- <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>"> -->
-  <link rel="icon" type="image/png" href="images/thu_icon.png">
+  <link rel="icon" type="image/png" href="images/kaust_icon.png">
 </head>
 
 <body>
@@ -55,6 +55,41 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 				
+          <!-- 2025 Fovea Stacking  -->
+          <tr onmouseout="fovea_stacking_stop()" onmouseover="fovea_stacking_start()" >
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='FoveaStacking'><video  width="160" height="160" muted autoplay loop>
+                  <source src='images/FoveaStacking_video.mp4' type="video/mp4">
+                  Your browser does not support the video tag.
+                </video></div>
+                <img src='images/FoveaStacking_img.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function fovea_stacking_start() {
+                  document.getElementById('FoveaStacking').style.opacity = "1";
+                }
+                function fovea_stacking_stop() {
+                  document.getElementById('FoveaStacking').style.opacity = "0";
+                }
+                fovea_stacking_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/pdf/2506.00716">
+                <papertitle>Fovea Stacking: Imaging with Dynamic Localized Aberration Correction</papertitle>
+              </a>
+              <br>
+              <strong>S. Mao</strong>, Y. Mishra, W. Heidrich
+              <br>
+              <em>ACM Trans. Graphics (Proc. SIGGRAPH Asia)</em>, 2025
+              <br>
+              <a href="data/FoveaStacking.bib">bibtex</a> / <a href="https://arxiv.org/pdf/2506.00716">paper</a> / <a href="projects/FoveaStacking/index.html">Project Page</a>
+              <p></p>
+              <p> Fovea Stacking is a novel imaging technique that dynamically corrects aberrations in localized regions, enhancing image quality.</p>
+            </td>
+          </tr>
+
           <!-- 2024 MatSparse3D  -->
           <tr onmouseout="matsparse3d_stop()" onmouseover="matsparse3d_start()" >
             <td style="padding:20px;width:25%;vertical-align:middle">
